@@ -510,7 +510,7 @@
             updateDynamicUI();
 
             const apiKey = "AIzaSyCRJgz-pAZPOvl1lRs-lz9UoSSY3JjENbk";
-            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key=${apiKey}`;
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
             
             let base64Data = State.mode === 'auto' ? State.image.split(',')[1] : getCompositedBase64().split(',')[1];
 
